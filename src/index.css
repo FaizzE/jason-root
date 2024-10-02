@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  background: #000000;
+  color: #ffffff;
+  scroll-behavior: smooth;
+
+}
+
+.bg-image {
+  background-image: url("./assets/jason-root.webp");
+}
+
+#work, #about, #experience, #testimonials, #contact {
+  scroll-margin-top: 80px;
+}
